@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import io from "socket.io-client";
-import "./App.css";
-import Dollar from "./components/dollar";
 import makeStyles from "@material-ui/core/styles/makeStyles";
-import AppWrapper from "./wrappers/appWrapper";
 import Switch from "@material-ui/core/Switch";
+import AppWrapper from "./wrappers/appWrapper";
+import Dollar from "./components/dollar";
+import "./App.css";
+
 
 let socket;
 const ENDPOINT = "localhost:5000";
